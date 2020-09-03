@@ -11,6 +11,25 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [
+    'as' => 'home',
+    'uses' => 'HomeController@index'
+]);
+
+Auth::routes();
+
+/**
+ * Games
+ */
+Route::group([
+    'prefix' => 'game',
+    'as' => 'game::',
+    'namespace' => 'Games',
+    'middleware' => 'auth'
+], function() {
+
+    Route::get('roulette', [
+        'as' => 'roulette',
+        'uses' => 'RouletteController@index'
+    ]);
 });

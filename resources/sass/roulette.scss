@@ -1,0 +1,228 @@
+.ro-table-overflow {
+    overflow: hidden;
+    padding: 25px 20px 0 0;
+    width: 100%;
+    background-color: #1d643b;
+}
+
+.ro-table {
+    margin: 0 0 0 auto;
+    position: relative;
+    width: 100%;
+
+}
+
+.ro-table-wrapper {
+    width: 100%;
+    padding-bottom: 35%
+}
+
+.ro-table-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.ro-no {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    width: 7%;
+    height: 20%;
+    border: 2px solid hsla(0,0%,100%,.4);
+    padding: calc(3.5% - 10px) 0 0;
+    border-right: 0;
+    border-bottom: 0;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    pointer-events: all;
+    z-index: 1;
+    background: hsla(0,0%,100%,.03)
+}
+
+.ro-table .ro-no {
+    cursor: pointer
+}
+
+.ro-no.win {
+    z-index: 2
+}
+
+.ro-no.win:after {
+    content: "";
+    display: block;
+    border: 6px solid #ecc01a;
+    border-radius: 10px;
+    left: -6px;
+    position: absolute;
+    height: calc(100% + 12px);
+    top: -6px;
+    width: calc(100% + 12px);
+    z-index: 2
+}
+
+.ro-no.green.win:after {
+    border-radius: 25px 0 0 25px
+}
+
+.ro-no.green {
+    border-bottom: 2px solid hsla(0,0%,100%,.4);
+    border-radius: 20px 0 0 20px;
+    height: calc(60% + 2px);
+    padding: calc(10.5% - 10px) 0 0;
+    margin: 0 0 30% calc(2% - 1px)
+}
+
+.ro-no.green:before {
+    position: absolute;
+    background: #39b54a;
+    border-radius: 50%;
+    content: "";
+    left: 15%;
+    width: 70%;
+    height: 22%;
+    top: 39%;
+    z-index: -1
+}
+
+.ro-no.hover,.ro-table .ro-no:hover {
+    background: rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 20px 0 hsla(0,0%,100%,.1);
+    box-shadow: 0 0 20px 0 hsla(0,0%,100%,.1)
+}
+
+.ro-no.red:before {
+    background: #c40f00
+}
+
+.ro-no.black:before,.ro-no.red:before {
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    z-index: -1
+}
+
+.ro-no.black:before {
+    background: #151515
+}
+
+.ro-no.black-bet svg {
+    fill: #151515
+}
+
+.ro-no.black-bet svg,.ro-no.red-bet svg {
+    left: 15%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    width: 70%
+}
+
+.ro-no.red-bet svg {
+    fill: #c40f00
+}
+
+.ro-no.third {
+    width: 28%
+}
+
+.ro-no.sixth.bb,.ro-no.third {
+    height: 16%;
+    padding: calc(2.8% - 10px) 0 0
+}
+
+.ro-no.sixth.bb {
+    width: 14%
+}
+
+.ro-no.ro-br {
+    border-right: 2px solid hsla(0,0%,100%,.4);
+    width: calc(7% + 2px);
+    margin-right: -2px
+}
+
+.ro-no.third.ro-br {
+    width: calc(28% + 2px);
+    margin-right: -2px
+}
+
+.ro-no.sixth.ro-br {
+    width: calc(14% + 2px);
+    margin-right: -2px
+}
+
+.ro-no.bb {
+    border-bottom: 2px solid hsla(0,0%,100%,.4);
+    height: calc(20% + 2px);
+    margin-bottom: -2px
+}
+
+.ro-overlay {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 100%;
+    padding: calc(.85% + 1px) 0 0 calc(3.5% + 1px);
+    pointer-events: none;
+    position: absolute;
+    width: 100%
+}
+
+.ro-overlay>div {
+    border-radius: 3px;
+    float: left;
+    position: relative;
+    pointer-events: all;
+    z-index: 2
+}
+
+.ro-table .ro-overlay>div {
+    cursor: pointer
+}
+
+.ro-split-h {
+    height: 15%;
+    margin-left: 4%;
+    width: 3%
+}
+
+.ro-table .ro-corner:hover,.ro-table .ro-split-h:hover,.ro-table .ro-split-v:hover {
+    background: rgba(0,0,0,.3)
+}
+
+.ro-split-v {
+    height: 5%;
+    width: 4%
+}
+
+.ro-corner {
+    height: 5%;
+    width: 3%
+}
+
+.ro-corner.clear-before {
+    margin-left: 4%
+}
+
+.clear-before {
+    clear: both
+}
+
+.ro-table-inner .chip {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px)
+}

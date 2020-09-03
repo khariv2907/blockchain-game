@@ -14,3 +14,6 @@ yarn-error.log
 package-lock.json
 composer.lock
 .docker/.env
+public/mix-manifest.json
+public/css
+public/js
