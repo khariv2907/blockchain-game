@@ -1,0 +1,982 @@
+.ro-bg {
+    background: url(https://www.bitsler.com/static/img/dark/roulette.7bf5cf7a.jpg);
+    -webkit-box-shadow: inset 0 0 200px 0 rgba(0,0,0,.75);
+    box-shadow: inset 0 0 200px 0 rgba(0,0,0,.75);
+}
+
+.ro-container {
+    width: 1100px;
+    width: 100%;
+}
+
+.ro-container,.ro-table-container {
+    margin: 0 auto;
+    max-width: 1100px;
+    position: relative;
+}
+
+.ro-table-container {
+    width: 100%;
+    -webkit-transition: width .3s ease;
+    transition: width .3s ease;
+}
+
+.ro .cs-button {
+    color: hsla(0,0%,100%,.8)!important;
+}
+
+.ro .custom-control-input:checked~.custom-control-label:before,.ro .vue-slider-process {
+    background-color: #278033;
+}
+
+@media(min-width: 768px) {
+    .bal-fixed-des .ro .bal {
+        background-color:rgba(0,0,0,.5);
+    }
+}
+
+@media(max-width: 767.98px) {
+    .bal-fixed-mob .ro .bal {
+        background-color:rgba(0,0,0,.5);
+    }
+}
+
+.ro .bal-btn .btn {
+    background-color: hsla(0,0%,100%,.15);
+    color: #fff;
+}
+
+.ro .bal .btn:hover {
+    background-color: hsla(0,0%,100%,.2);
+    color: #fff;
+}
+
+.ro .btn {
+    border-color: hsla(0,0%,100%,.1);
+    color: #fff;
+}
+
+.ro .btn.active>svg {
+    color: #50ea53;
+}
+
+.ro #ctrl-bet-size li,.ro-controls .btn.btn-secondary:not(:disabled):not(.disabled) {
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    padding: 6px 0;
+    height: 37px;
+    -webkit-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2)!important;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2)!important;
+}
+
+.ro #ctrl-bet-size li:active,.ro #ctrl-bet-size li:hover,.ro-controls .btn.btn-secondary:not(:disabled):not(.disabled):active,.ro-controls .btn.btn-secondary:not(:disabled):not(.disabled):hover {
+    background: rgba(0,0,0,.4);
+}
+
+.ro-controls .btn.btn-secondary.disabled {
+    background: rgba(0,0,0,.3);
+    color: #fff;
+}
+
+.ro .ro-controls .btn.btn-repeat {
+    font-size: 13px;
+    font-family: NotoSans,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,Osaka,ＭＳ Ｐゴシック,MS PGothic,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    height: 25px!important;
+    padding: 0 0 .2rem!important;
+}
+
+.ro .tabs li.active,.ro .tabs li:hover {
+    border-color: #278033;
+}
+
+.ro-options {
+    float: right;
+}
+
+.ro-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ro-options li {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ro-options .on {
+    color: #fff;
+}
+
+.ro .game-box-wrapper {
+    float: right;
+    height: 70px;
+    max-width: 408px;
+    margin: 14px 0;
+    width: 100%;
+}
+
+.ro .game-box-wrapper h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.ro-results {
+    max-height: 400px;
+}
+
+.ro-results ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.ro-results li,.ro-results ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ro-results span {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    float: left;
+    height: 30px;
+    padding: 5px 0;
+    margin: 0 4.7px 5px;
+    text-align: center;
+    width: 30px;
+}
+
+.ro-result.black,.ro-results span.black {
+    background: #151515;
+}
+
+.ro-result.red,.ro-results span.red {
+    background: #c40f00;
+}
+
+.ro-result.green,.ro-results span.green {
+    background: #39b54a;
+}
+
+.ro-result {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    height: 30px;
+    padding: 5px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 30px;
+}
+
+.ro-table-overflow {
+    overflow: hidden;
+    padding: 5px 0 0;
+    width: 100%;
+}
+
+.ro-table {
+    margin: 0 0 0 auto;
+    float: right;
+    position: relative;
+    width: 100%;
+}
+
+.ro-table-wrapper {
+    width: 100%;
+    padding-bottom: 35%;
+}
+
+.ro-table-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ro-no {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    width: 7%;
+    height: 20%;
+    border: 2px solid hsla(0,0%,100%,.4);
+    padding: calc(3.5% - 10px) 0 0;
+    border-right: 0;
+    border-bottom: 0;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    pointer-events: all;
+    z-index: 1;
+    background: hsla(0,0%,100%,.03);
+}
+
+.ro-table .ro-no {
+    cursor: pointer;
+}
+
+.ro-no.win {
+    z-index: 2;
+}
+
+.ro-no.win:after {
+    content: "";
+    display: block;
+    border: 6px solid #ecc01a;
+    border-radius: 10px;
+    left: -6px;
+    position: absolute;
+    height: calc(100% + 12px);
+    top: -6px;
+    width: calc(100% + 12px);
+    z-index: 2;
+}
+
+.ro-no.green.win:after {
+    border-radius: 25px 0 0 25px;
+}
+
+.ro-no.green {
+    border-bottom: 2px solid hsla(0,0%,100%,.4);
+    border-radius: 20px 0 0 20px;
+    height: calc(60% + 2px);
+    padding: calc(10.5% - 10px) 0 0;
+    margin: 0 0 30% 0;
+}
+
+.ro-no.green:before {
+    position: absolute;
+    background: #39b54a;
+    border-radius: 50%;
+    content: "";
+    left: 15%;
+    width: 70%;
+    height: 22%;
+    top: 39%;
+    z-index: -1;
+}
+
+.ro-no.hover,.ro-table .ro-no:hover {
+    background: rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 20px 0 hsla(0,0%,100%,.1);
+    box-shadow: 0 0 20px 0 hsla(0,0%,100%,.1);
+}
+
+.ro-no.red:before {
+    background: #c40f00;
+}
+
+.ro-no.black:before,.ro-no.red:before {
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    z-index: -1;
+}
+
+.ro-no.black:before {
+    background: #151515;
+}
+
+.ro-no.black-bet svg {
+    fill: #151515;
+}
+
+.ro-no.black-bet svg,.ro-no.red-bet svg {
+    left: 15%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    width: 70%;
+}
+
+.ro-no.red-bet svg {
+    fill: #c40f00;
+}
+
+.ro-no.third {
+    width: 28%;
+}
+
+.ro-no.sixth.bb,.ro-no.third {
+    height: 16%;
+    padding: calc(2.8% - 10px) 0 0;
+}
+
+.ro-no.sixth.bb {
+    width: 14%;
+}
+
+.ro-no.ro-br {
+    border-right: 2px solid hsla(0,0%,100%,.4);
+    width: calc(7% + 2px);
+    margin-right: -2px;
+}
+
+.ro-no.third.ro-br {
+    width: calc(28% + 2px);
+    margin-right: -2px;
+}
+
+.ro-no.sixth.ro-br {
+    width: calc(14% + 2px);
+    margin-right: -2px;
+}
+
+.ro-no.bb {
+    border-bottom: 2px solid hsla(0,0%,100%,.4);
+    height: calc(20% + 2px);
+    margin-bottom: -2px;
+}
+
+.ro-overlay {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 100%;
+    padding: calc(.85% + 1px) 0 0 calc(3.5% + 1px);
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+}
+
+.ro-overlay>div {
+    border-radius: 3px;
+    float: left;
+    position: relative;
+    pointer-events: all;
+    z-index: 2
+}
+
+.ro-table .ro-overlay>div {
+    cursor: pointer
+}
+
+.ro-split-h {
+    height: 15%;
+    margin-left: 4%;
+    width: 3%
+}
+
+.ro-table .ro-corner:hover,.ro-table .ro-split-h:hover,.ro-table .ro-split-v:hover {
+    background: rgba(0,0,0,.3)
+}
+
+.ro-split-v {
+    height: 5%;
+    width: 4%
+}
+
+.ro-corner {
+    height: 5%;
+    width: 3%
+}
+
+.ro-corner.clear-before {
+    margin-left: 4%
+}
+
+.clear-before {
+    clear: both
+}
+
+.ro-table-inner .chip {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px)
+}
+
+.chip {
+    background-size: contain;
+    color: #000;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 9px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 0 0;
+    width: 40px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.chip.purple {
+    background-image: url(https://www.bitsler.com/static/img/roulette/chip-purple.c25984e0.png)
+}
+
+.chip.blue {
+    background-image: url(https://www.bitsler.com/static/img/roulette/chip-blue.8f4f1851.png)
+}
+
+.chip.green {
+    background-image: url(https://www.bitsler.com/static/img/roulette/chip-green.6954d360.png)
+}
+
+.chip.red {
+    background-image: url(https://www.bitsler.com/static/img/roulette/chip-red.96f5aaf5.png)
+}
+
+.chip.gray {
+    background-image: url(https://www.bitsler.com/static/img/roulette/chip-gray.7b10d0ad.png)
+}
+
+.chip.orange {
+    background-image: url(https://www.bitsler.com/static/img/roulette/chip-orange.99ba4753.png)
+}
+
+.chip span.title {
+    clear: both;
+    float: right;
+    font-size: 8px;
+    text-align: center;
+    width: 40px
+}
+
+.ro-wheel-overlay {
+    top: 28px;
+    left: 0;
+    width: 175px
+}
+
+.ro-wheel,.ro-wheel-overlay {
+    position: absolute;
+    height: 350px
+}
+
+.ro-wheel {
+    background: url(https://www.bitsler.com/static/img/roulette/wheel.a16cea2e.png);
+    background-size: cover;
+    width: 350px;
+    left: -175px
+}
+
+.ro-ball {
+    background: url(https://www.bitsler.com/static/img/roulette/ball.c961c6a5.png) no-repeat 100%;
+    background-size: contain;
+    position: absolute;
+    height: 20px;
+    width: 272px;
+    z-index: 3;
+    left: -136px;
+    top: 164px;
+    text-align: right
+}
+
+.ro-controls {
+    background: rgba(0,0,0,.2);
+    border-radius: 6px;
+    padding: 10px 0
+}
+
+.ro-controls,.ro-controls .custom-control-input:disabled~.custom-control-label {
+    color: #fff
+}
+
+.ro .custom-checkbox .custom-control-input:checked~.custom-control-label:before {
+    background-color: #278033
+}
+
+.ro .custom-control-input:focus~.custom-control-label:before {
+    -webkit-box-shadow: 0 0 0 1px #278033,0 0 0 .2rem rgba(39,128,51,.25);
+    box-shadow: 0 0 0 1px #278033,0 0 0 .2rem rgba(39,128,51,.25)
+}
+
+.ro-input label {
+    font-size: 1.1rem;
+    font-weight: 700
+}
+
+.ro-input .form-control:disabled {
+    background: rgba(0,0,0,.1);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff
+}
+
+.ro-input .input-group-text {
+    background: rgba(0,0,0,.5);
+    color: #fff
+}
+
+.ro-input .ro-profit.win input.form-control:disabled,.ro-input input.form-control:disabled.ro-profit.win {
+    color: #699737;
+    border: 2px solid #699737
+}
+
+.ro-input .ro-profit.loss input.form-control:disabled,.ro-input input.form-control:disabled.ro-profit.loss {
+    color: #f76c51;
+    border: 2px solid #f76c51
+}
+
+.chips-select-wrapper h3 {
+    font-size: 1.1rem;
+    font-weight: 700
+}
+
+.chips-select .chip {
+    cursor: pointer;
+    margin: 2px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+.chips-select .chip:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    z-index: 90
+}
+
+.chips-select .chip.active {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15)
+}
+
+.chips-value {
+    color: #fff;
+    margin: 10px 2px 0
+}
+
+.ro-auto {
+    background: rgba(0,0,0,.2);
+    border-radius: 6px;
+    max-height: 520px;
+    margin: 14px 0 0
+}
+
+.ro .auto {
+    color: #fff;
+    padding: 7px 14px;
+    margin: 0 auto;
+    max-width: 675px;
+    width: 100%
+}
+
+.ro .auto .btn-toggle .btn:not(.btn-primary),.ro .auto input {
+    background: rgba(0,0,0,.5);
+    color: #fff
+}
+
+.ro .auto .increase_by .btn-increase,.ro .auto .increase_by .dropdown-menu,.ro .auto .input-group-text {
+    background: rgba(0,0,0,.3);
+    color: #fff
+}
+
+.ro .auto .increase_by .dropdown-item {
+    background: 0 0!important;
+    color: #fff
+}
+
+.ro .range-slider::-webkit-slider-thumb {
+    background: #278033
+}
+
+.ro .range-slider::-moz-range-thumb {
+    background: #278033
+}
+
+.ro .auto .btn-toggle .btn-primary {
+    background: #278033
+}
+
+.ro-mobile {
+    color: #fff;
+    display: none;
+    font-size: 16px;
+    font-weight: 700;
+    height: 150px;
+    border-radius: 20px;
+    background: rgba(0,0,0,.5);
+    margin: 20px auto;
+    padding: 30px 30px 20px;
+    text-align: center;
+    width: 280px
+}
+
+.ro-mobile .ro-rotate {
+    background: url(https://www.bitsler.com/static/img/roulette/rotate-mobile.a9b1ba45.png) no-repeat 50%;
+    display: block;
+    height: 90px;
+    margin: 0 auto
+}
+
+.ro-tablet-controls {
+    text-align: center;
+    margin: -10px 0 0;
+    width: 100%
+}
+
+.ro-tablet-controls .chips-select {
+    display: inline-block
+}
+
+.ro-tablet-controls .chips-value {
+    margin: 8px auto 0
+}
+
+.ro-tablet-controls .ro-tablet-play {
+    margin: 0 0 5px auto;
+    text-align: center;
+    width: 100%;
+    color: #fff
+}
+
+.ro-tablet-controls .ro-tablet-play .btn {
+    width: 200px
+}
+
+.game-left .ro-input {
+    margin: 10px 0 0 40px
+}
+
+.game-left .ro-input input {
+    float: left;
+    height: 33px;
+    width: 180px
+}
+
+.game-left .ro-input .ro-amount-buttons {
+    float: left;
+    width: 260px
+}
+
+.game-left .ro-input .ro-amount-buttons .btn {
+    padding: 3px 10px;
+    height: 33px
+}
+
+.ro-tablet-top {
+    padding: 5px 5px 0
+}
+
+.ro-tablet-top .bet-amount {
+    float: left;
+    font-size: 13px;
+    height: 37px;
+    width: 160px
+}
+
+.ro-tablet-top .ro-amount-buttons {
+    float: left;
+    width: calc(100% - 160px)
+}
+
+.ro-tablet-top .ro-amount-buttons #ctrl-bet-size {
+    float: left;
+    width: calc(100% - 140px)
+}
+
+.ro-tablet-top .custom-checkbox {
+    float: left;
+    width: 135px;
+    margin: 5px 0 0 5px
+}
+
+.ro-tablet-top .custom-checkbox label {
+    font-size: 12px;
+    color: #fff
+}
+
+@media(min-width: 1080px) {
+    .ro-no.black:before,.ro-no.red:before {
+        left:calc(50% - 18px);
+        width: 36px;
+        height: 36px;
+        top: calc(50% - 18px)
+    }
+}
+
+@media(min-width: 1024px) and (max-width:1350px) {
+    .site-wrapper-chat .ro-wheel-overlay {
+        width:280px;
+        height: 280px
+    }
+
+    .site-wrapper-chat .ro-wheel {
+        width: 280px;
+        height: 280px;
+        left: -140px
+    }
+
+    .site-wrapper-chat .ro-ball {
+        width: 220px;
+        left: -110px;
+        top: 129px
+    }
+
+    .site-wrapper-chat .ro-table {
+        width: calc(100% - 150px)
+    }
+}
+
+@media(min-width: 1024px) and (max-width:1100px) {
+    .site-wrapper-chat .ro-wheel-overlay {
+        width:200px;
+        height: 200px;
+        top: 70px
+    }
+
+    .site-wrapper-chat .ro-wheel {
+        width: 200px;
+        height: 200px;
+        left: -100px
+    }
+
+    .site-wrapper-chat .ro-ball {
+        width: 158px;
+        left: -79px;
+        top: 93px;
+        height: 14px;
+        background-size: contain
+    }
+
+    .site-wrapper-chat .ro-table {
+        margin-top: 14px;
+        width: calc(100% - 110px)
+    }
+
+    .site-wrapper-chat .ro-table .chip {
+        -webkit-transform: scale(.8);
+        transform: scale(.8)
+    }
+
+    .site-wrapper-chat .ro .game-box-wrapper {
+        margin-top: 14px
+    }
+}
+
+@media(max-width: 991.98px) {
+    .col-12 .ro-wheel,.col-12 .ro-wheel-overlay {
+        width:280px;
+        height: 280px
+    }
+
+    .col-12 .ro-wheel {
+        left: -140px
+    }
+
+    .col-12 .ro-ball {
+        width: 220px;
+        left: -110px;
+        top: 129px
+    }
+
+    .col-12 .ro-table {
+        width: calc(100% - 150px)
+    }
+}
+
+@media(max-width: 767.98px) {
+    .ro .ro-wheel-overlay {
+        top:3px;
+        width: 200px;
+        height: 200px
+    }
+
+    .ro .ro-wheel {
+        width: 200px;
+        height: 200px;
+        left: -100px
+    }
+
+    .ro .ro-ball {
+        width: 158px;
+        left: -79px;
+        top: 93px;
+        height: 14px;
+        background-size: contain
+    }
+
+    .ro .ro-table {
+        margin-top: 14px;
+        width: calc(100% - 110px)
+    }
+
+    .ro .ro-table .chip {
+        -webkit-transform: scale(.8);
+        transform: scale(.8)
+    }
+}
+
+@media(max-width: 650px) {
+    .chips-select .chip {
+        margin:0;
+        -webkit-transform: scale(.9);
+        transform: scale(.9)
+    }
+}
+
+@media(max-width: 500px) {
+    .ro-input,.ro-table-wrapper,.ro-tablet-controls,.ro-wheel-overlay {
+        display:none
+    }
+
+    .ro-mobile {
+        display: block
+    }
+
+    .ro-buttons .btn-primary.btn-ro-play {
+        width: calc(100% - 10px)
+    }
+}
+
+.currency-small {
+    float: left;
+    height: 1.4em;
+    margin: 0 5px 0 0;
+}
+
+.game-wrapper {
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 0 14px;
+    width: calc(100% - 28px);
+}
+
+@charset "UTF-8";.game-bottom {
+                     background: rgba(0,0,0,.2);
+                     border-radius: 6px 6px 0 0;
+                     margin: 14px 0 0;
+                     overflow: hidden
+                 }
+
+.game-bottom .btn {
+    border: 0;
+    border-radius: 0;
+    padding: 3px 0 0;
+    margin: 0;
+    height: 45px;
+    text-align: center;
+    font-size: .9em;
+    text-transform: uppercase;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important
+}
+
+.game-bottom .btn:first-child {
+    border: 0
+}
+
+.game-bottom .btn svg {
+    font-size: 18px;
+    fill: #fff;
+}
+
+.game-bottom .btn span,.nab .btn span {
+    clear: both;
+    display: block;
+    left: 0;
+    width: 100%
+}
+
+.game-bottom-more {
+    position: absolute;
+    top: -135px;
+    height: 135px;
+    width: 100%;
+    background: #263340;
+    border-radius: 6px 0 0 0
+}
+
+.game-bottom .col-12 {
+    background: #32404e
+}
+
+@media(max-width: 575.98px) {
+    #game .game-bottom {
+        background:#263340;
+        position: fixed;
+        bottom: 45px;
+        left: 0;
+        width: 100%;
+        z-index: 1030;
+        margin: 0;
+        border-radius: 0;
+        overflow: initial
+    }
+
+    #game .game-bottom .btn,.nab .btn {
+        color: #fff
+    }
+
+    #game .game-bottom .btn.active>svg,.nab .btn.active>svg {
+        color: #63b2e6
+    }
+
+    .game-bottom .btn span,.nab .btn span {
+        font-size: .7em;
+        padding: 5px 0 0
+    }
+}
+
+.row.nab {
+    margin: 14px 0 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1033;
+    margin: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.2)
+}
+
+.row.nab .game-bottom .btn,.row.nab>.btn {
+    background: #32404e;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    padding: 2px 0 0;
+    margin: 0;
+    height: 52px;
+    text-align: center;
+    font-size: 1em;
+    text-transform: none;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important
+}
+
+.row.nab .game-bottom .btn.active,.row.nab>.btn.active {
+    color: #63b2e6
+}
+
+.game-bottom .btn.active>svg,.nab .btn.active>svg {
+    color: #63b2e6
+}
+
+.spin-details {
+    width: 100%;
+    
+    .left-sd {
+        width: 50%;
+        float: left;
+    }
+
+    .right-sd {
+        width: 50%;
+        float: left;
+    }
+}

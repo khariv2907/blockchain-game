@@ -2,140 +2,140 @@
     <div class="ro-table">
         <div class="ro-table-wrapper">
             <div class="ro-table-inner">
-                <div data-nums="0" class="ro-no green">
-                    0 <!---->
+                <div data-nums="0" class="ro-no green"> 0
+                    <!---->
                 </div>
-                <div data-nums="3" class="ro-no red">
-                    3 <!---->
+                <div data-nums="3" class="ro-no red"> 3
+                    <!---->
                 </div>
-                <div data-nums="6" class="ro-no black">
-                    6 <!---->
+                <div data-nums="6" class="ro-no black"> 6
+                    <!---->
                 </div>
-                <div data-nums="9" class="ro-no red">
-                    9 <!---->
+                <div data-nums="9" class="ro-no red"> 9
+                    <!---->
                 </div>
-                <div data-nums="12" class="ro-no red">
-                    12 <!---->
+                <div data-nums="12" class="ro-no red"> 12
+                    <!---->
                 </div>
-                <div data-nums="15" class="ro-no black">
-                    15 <!---->
+                <div data-nums="15" class="ro-no black"> 15
+                    <!---->
                 </div>
-                <div data-nums="18" class="ro-no red">
-                    18 <!---->
+                <div data-nums="18" class="ro-no red"> 18
+                    <!---->
                 </div>
-                <div data-nums="21" class="ro-no red">
-                    21 <!---->
+                <div data-nums="21" class="ro-no red"> 21
+                    <!---->
                 </div>
-                <div data-nums="24" class="ro-no black">
-                    24 <!---->
+                <div data-nums="24" class="ro-no black"> 24
+                    <!---->
                 </div>
-                <div data-nums="27" class="ro-no red">
-                    27 <!---->
+                <div data-nums="27" class="ro-no red"> 27
+                    <!---->
                 </div>
-                <div data-nums="30" class="ro-no red">
-                    30 <!---->
+                <div data-nums="30" class="ro-no red"> 30
+                    <!---->
                 </div>
-                <div data-nums="33" class="ro-no black">
-                    33 <!---->
+                <div data-nums="33" class="ro-no black"> 33
+                    <!---->
                 </div>
-                <div data-nums="36" class="ro-no red">
-                    36 <!---->
+                <div data-nums="36" class="ro-no red"> 36
+                    <!---->
                 </div>
-                <div data-nums="3,6,9,12,15,18,21,24,27,30,33,36" class="ro-no trans ro-br">
-                    2:1 <!---->
+                <div data-nums="3,6,9,12,15,18,21,24,27,30,33,36" class="ro-no trans ro-br"> 2:1
+                    <!---->
                 </div>
-                <div data-nums="2" class="ro-no black">
-                    2 <!---->
+                <div data-nums="2" class="ro-no black"> 2
+                    <!---->
                 </div>
-                <div data-nums="5" class="ro-no red">
-                    5 <!---->
+                <div data-nums="5" class="ro-no red"> 5
+                    <!---->
                 </div>
-                <div data-nums="8" class="ro-no black">
-                    8 <!---->
+                <div data-nums="8" class="ro-no black"> 8
+                    <!---->
                 </div>
-                <div data-nums="11" class="ro-no black">
-                    11 <!---->
+                <div data-nums="11" class="ro-no black"> 11
+                    <!---->
                 </div>
-                <div data-nums="14" class="ro-no red">
-                    14 <!---->
+                <div data-nums="14" class="ro-no red"> 14
+                    <!---->
                 </div>
-                <div data-nums="17" class="ro-no black">
-                    17 <!---->
+                <div data-nums="17" class="ro-no black"> 17
+                    <!---->
                 </div>
-                <div data-nums="20" class="ro-no black">
-                    20 <!---->
+                <div data-nums="20" class="ro-no black"> 20
+                    <!---->
                 </div>
-                <div data-nums="23" class="ro-no red">
-                    23 <!---->
+                <div data-nums="23" class="ro-no red"> 23
+                    <!---->
                 </div>
-                <div data-nums="26" class="ro-no black">
-                    26 <!---->
+                <div data-nums="26" class="ro-no black"> 26
+                    <!---->
                 </div>
-                <div data-nums="29" class="ro-no black">
-                    29 <!---->
+                <div data-nums="29" class="ro-no black"> 29
+                    <!---->
                 </div>
-                <div data-nums="32" class="ro-no red">
-                    32 <!---->
+                <div data-nums="32" class="ro-no red"> 32
+                    <!---->
                 </div>
-                <div data-nums="35" class="ro-no black">
-                    35 <!---->
+                <div data-nums="35" class="ro-no black"> 35
+                    <!---->
                 </div>
-                <div data-nums="2,5,8,11,14,17,20,23,26,29,32,35" class="ro-no trans ro-br">
-                    2:1 <!---->
+                <div data-nums="2,5,8,11,14,17,20,23,26,29,32,35" class="ro-no trans ro-br"> 2:1
+                    <!---->
                 </div>
-                <div data-nums="1" class="ro-no red">
-                    1 <!---->
+                <div data-nums="1" class="ro-no red"> 1
+                    <!---->
                 </div>
-                <div data-nums="4" class="ro-no black">
-                    4 <!---->
+                <div data-nums="4" class="ro-no black"> 4
+                    <!---->
                 </div>
-                <div data-nums="7" class="ro-no red">
-                    7 <!---->
+                <div data-nums="7" class="ro-no red"> 7
+                    <!---->
                 </div>
-                <div data-nums="10" class="ro-no black">
-                    10 <!---->
+                <div data-nums="10" class="ro-no black"> 10
+                    <!---->
                 </div>
-                <div data-nums="13" class="ro-no black">
-                    13 <!---->
+                <div data-nums="13" class="ro-no black"> 13
+                    <!---->
                 </div>
-                <div data-nums="16" class="ro-no red">
-                    16 <!---->
+                <div data-nums="16" class="ro-no red"> 16
+                    <!---->
                 </div>
-                <div data-nums="19" class="ro-no red">
-                    19 <!---->
+                <div data-nums="19" class="ro-no red"> 19
+                    <!---->
                 </div>
-                <div data-nums="22" class="ro-no black">
-                    22 <!---->
+                <div data-nums="22" class="ro-no black"> 22
+                    <!---->
                 </div>
-                <div data-nums="25" class="ro-no red">
-                    25 <!---->
+                <div data-nums="25" class="ro-no red"> 25
+                    <!---->
                 </div>
-                <div data-nums="28" class="ro-no black">
-                    28 <!---->
+                <div data-nums="28" class="ro-no black"> 28
+                    <!---->
                 </div>
-                <div data-nums="31" class="ro-no black">
-                    31 <!---->
+                <div data-nums="31" class="ro-no black"> 31
+                    <!---->
                 </div>
-                <div data-nums="34" class="ro-no red">
-                    34 <!---->
+                <div data-nums="34" class="ro-no red"> 34
+                    <!---->
                 </div>
-                <div data-nums="1,4,7,10,13,16,19,22,25,28,31,34" class="ro-no trans bb ro-br">
-                    2:1 <!---->
+                <div data-nums="1,4,7,10,13,16,19,22,25,28,31,34" class="ro-no trans bb ro-br"> 2:1
+                    <!---->
                 </div>
-                <div data-nums="1,2,3,4,5,6,7,8,9,10,11,12" class="ro-no third trans">
-                    1st 12 <!---->
+                <div data-nums="1,2,3,4,5,6,7,8,9,10,11,12" class="ro-no third trans"> 1st 12
+                    <!---->
                 </div>
-                <div data-nums="13,14,15,16,17,18,19,20,21,22,23,24" class="ro-no third trans">
-                    2nd 12 <!---->
+                <div data-nums="13,14,15,16,17,18,19,20,21,22,23,24" class="ro-no third trans"> 2nd 12
+                    <!---->
                 </div>
-                <div data-nums="25,26,27,28,29,30,31,32,33,34,35,36" class="ro-no third trans ro-br">
-                    3rd 12 <!---->
+                <div data-nums="25,26,27,28,29,30,31,32,33,34,35,36" class="ro-no third trans ro-br"> 3rd 12
+                    <!---->
                 </div>
-                <div data-nums="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18" class="ro-no sixth trans bb">
-                    1-18 <!---->
+                <div data-nums="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18" class="ro-no sixth trans bb"> 1-18
+                    <!---->
                 </div>
-                <div data-nums="2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36" class="ro-no sixth trans bb">
-                    even <!---->
+                <div data-nums="2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36" class="ro-no sixth trans bb"> even
+                    <!---->
                 </div>
                 <div data-nums="2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35" class="ro-no sixth black-bet bb">
                     <svg viewBox="0 0 100 60" preserveAspectRatio="none">
@@ -149,11 +149,11 @@
                     </svg>
                     <!---->
                 </div>
-                <div data-nums="1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35" class="ro-no sixth trans bb">
-                    odd <!---->
+                <div data-nums="1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35" class="ro-no sixth trans bb"> odd
+                    <!---->
                 </div>
-                <div data-nums="19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36" class="ro-no sixth trans ro-br bb">
-                    19-36 <!---->
+                <div data-nums="19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36" class="ro-no sixth trans ro-br bb"> 19-36
+                    <!---->
                 </div>
                 <div class="ro-overlay">
                     <div data-nums="0,3" class="ro-split-h">
