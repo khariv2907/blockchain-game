@@ -8,7 +8,9 @@
                     <div class="card-body">
                         <h1>Roulette</h1>
                         <hr>
-                        @include('games.roulette._game')
+                        <roulette-game id="roulette-game">
+
+                        </roulette-game>
                     </div>
                 </div>
             </div>
